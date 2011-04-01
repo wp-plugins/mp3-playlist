@@ -1,0 +1,66 @@
+table#merlic_playlist {
+    width: 100%;
+}
+
+table#merlic_playlist th {
+    padding-bottom: 10px;
+}
+
+table#merlic_playlist td {
+    text-align: center;
+}
+
+table#merlic_playlist td input {
+    width: 100%;
+}
+
+table#merlic_playlist .plus_btn, table#merlic_playlist .minus_btn {
+    width: 20px;
+    cursor: pointer;
+}
+
+table#merlic_playlist .drag {
+    width: 20px;
+    cursor: move;
+}
+
+#merlic_playlist_box_widget {
+    position: relative;
+    height: 250px;
+    width: 100%;
+    border: 1px solid red;
+    background-color: #EAEAEA;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#merlic_playlist_box_content {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    border: 1px solid #DDDDDD;
+    background-color: #EAEAEA;
+    overflow: hidden;
+    margin: 10px 0;
+    padding: 0;
+    -moz-background-size: 100% 100%; /* Gecko 1.9.2 (Firefox 3.6) */
+    -o-background-size: 100% 100%; /* Opera 9.5 */
+    -webkit-background-size: 100% 100%; /* Safari 3.0 */
+    background-size: 100% 100%;
+}
+
+#merlic_playlist_box_widget li a, #merlic_playlist_box_content li a {
+    text-decoration: none;
+    text-transform: none;
+    border: none;
+}
+
+#merlic_playlist_box_widget a:hover, #merlic_playlist_box_content a:hover {
+    text-decoration: none;
+}
+
+a.merlic_playlist_playlist {
+    float: left;
+    margin: 5px 0;
+}
+
