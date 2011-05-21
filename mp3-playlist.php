@@ -91,8 +91,8 @@ function merlic_playlist_activate() {
 		
 	}
 	
-	$playlist_helper = new Merlic_Playlist_Helper();
-	$playlist_helper->notification();
+	//$playlist_helper = new Merlic_Playlist_Helper();
+	//$playlist_helper->notification();
 	
 }
 
